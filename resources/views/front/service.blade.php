@@ -1,12 +1,12 @@
 @extends('front.layouts.master')
-@section('page_title', 'our team')
+@section('page_title', 'service')
 @section('content')
-    <div class="ourteam">
+    <div class="service">
         <div class="container">
-            <div class="ourteam__wrapper">
-                <div class="ourteam__desc">
-                    <h4 class="custom__subtitle">Lorem ipsum</h4>
-                    <div class="ourteam__desc__desc">
+            <div class="service__wrapper">
+                <div class="service__desc">
+                    <h4 class="custom__subtitle service__title">Lorem ipsum</h4>
+                    <div class="service__desc__desc custom__text">
                         Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
                         totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta
                         sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
@@ -19,8 +19,8 @@
                         aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
                     </div>
                 </div>
-                <div class="ourteam__image">
-                    <img src="{{asset('assets/front/images/ourteam/Rectangle 78.png')}}" alt="">
+                <div class="service__image">
+                    <img src="{{asset('assets/front/images/services/Rectangle 78.png')}}" alt="">
                 </div>
             </div>
         </div>

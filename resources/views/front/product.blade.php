@@ -1,12 +1,12 @@
 @extends('front.layouts.master')
-@section('page_title', 'our team')
+@section('page_title', 'product')
 @section('content')
-    <div class="ourteam">
+    <div class="product">
         <div class="container">
-            <div class="ourteam__wrapper">
-                <div class="ourteam__desc">
+            <div class="product__wrapper">
+                <div class="product__desc">
                     <h4 class="custom__subtitle">Lorem ipsum</h4>
-                    <div class="ourteam__desc__desc">
+                    <div class="product__desc__desc custom__text">
                         Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
                         totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta
                         sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
@@ -19,11 +19,12 @@
                         aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
                     </div>
                 </div>
-                <div class="ourteam__image">
-                    <img src="{{asset('assets/front/images/ourteam/Rectangle 78.png')}}" alt="">
+                <div class="product__image">
+                    <img src="{{asset('assets/front/images/products/Frame.png')}}" alt="">
                 </div>
             </div>
         </div>
     </div>
 @endsection
+ 
     <script src="./script/script.js"></script>
