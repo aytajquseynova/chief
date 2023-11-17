@@ -1,0 +1,54 @@
+<div>
+    <!-- Do what you can, with what you have, where you are. - Theodore Roosevelt -->
+    <header class="header">
+        <div class="menu">
+            <i class="fa fa-window-close" aria-hidden="true"></i>
+            <ul>
+                <li><a href="./aboutUs.html">About us</a></li>
+                <li><a href="./services.html">Services</a></li>
+                <li><a href="./products.html">Products</a></li>
+                <li><a href="./ourteams.html">Our team</a></li>
+                <li><a href="./contact.html">Contact us</a></li>
+            </ul>
+        </div>
+        <div class="container">
+            <div class="header__top">
+                <div class="header__top__wrapper">
+                    <div class="header__top__tel">
+                        <span>
+                            <img src="{{asset('assets/front/icons/navbar/carbon_phone-filled.png')}}" alt="">
+                        </span>
+                        <span><a href="">+994 50 000 00 00</a></span>
+                    </div>
+                    <div class="header__top__logo"><a href="./index.html">LOGO</a></div>
+                    <div class="header__top__lang">
+                        <span>
+                            <img src="{{asset('assets/front/icons/navbar/icon-park-outline_earth.png')}}" alt="">
+                        </span>
+                        <span>EN</span>
+                    </div>
+                    <div class="header__hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+            <nav class="navbar">
+                <div class="navbar__wrapper">
+                    <ul>
+                        <li><a href="./aboutUs.html">About us</a></li>
+                        <li><a href="./services.html">Services</a></li>
+                        <li><a href="./products.html">Products</a></li>
+                        <li><a href="./ourteams.html">Our team</a></li>
+                        <li><a href="./contact.html">Contact us</a></li>
+                    </ul>
+                </div>
+            </nav>
+            @yield('header_body')
+        </div>
+        <div class="header__img">
+            <img src="{{asset('assets/front/images/header/Group 1 (2).png')}}" alt="">
+        </div>
+    </header>
+</div>
