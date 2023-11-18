@@ -4,7 +4,7 @@
 <div class="ourteams">
     <div class="container">
         <div class="ourteams__wrapper">
-            <a href="./product.html" class="ourteams__box">
+            <a href="{{route('product')}}" class="ourteams__box">
                 <div class="ourteams__box__wrapper">
                     <div class="ourteams__box__desc">
                         <div class="ourteams__box__desc__title">Lorem ipsum</div>
@@ -14,7 +14,7 @@
                     <img src="{{asset('assets/front/images/ourteam/chief.png')}}" alt="">
                 </div>
             </a>
-            <a href="./product.html" class="ourteams__box">
+            <a href="{{route('product')}}" class="ourteams__box">
                 <div class="ourteams__box__wrapper">
                     <div class="ourteams__box__desc">
                         <div class="ourteams__box__desc__title">Lorem ipsum</div>
@@ -24,7 +24,7 @@
                     <img src="{{asset('assets/front/images/ourteam/chief.png')}}" alt="">
                 </div>
             </a>
-            <a href="./product.html" class="ourteams__box">
+            <a href="{{route('product')}}" class="ourteams__box">
                 <div class="ourteams__box__wrapper">
                     <div class="ourteams__box__desc">
                         <div class="ourteams__box__desc__title">Lorem ipsum</div>
@@ -34,7 +34,7 @@
                     <img src="{{asset('assets/front/images/ourteam/chief.png')}}" alt="">
                 </div>
             </a>
-            <a href="./product.html" class="ourteams__box">
+            <a href="{{route('product')}}" class="ourteams__box">
                 <div class="ourteams__box__wrapper">
                     <div class="ourteams__box__desc">
                         <div class="ourteams__box__desc__title">Lorem ipsum</div>
@@ -44,7 +44,7 @@
                     <img src="{{asset('assets/front/images/ourteam/chief.png')}}" alt="">
                 </div>
             </a>
-            <a href="./product.html" class="ourteams__box">
+            <a href="{{route('product')}}" class="ourteams__box">
                 <div class="ourteams__box__wrapper">
                     <div class="ourteams__box__desc">
                         <div class="ourteams__box__desc__title">Lorem ipsum</div>

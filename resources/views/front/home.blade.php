@@ -1,6 +1,11 @@
 @extends('front.layouts.master')
 @section('page_title', 'home page')
 @section('header_body')
+<!-- <style>
+    .header {
+        background-image: url('{{ asset("assets/front/images/header/Frame 1.png") }}');
+    }
+</style> -->
 <div class="header__body">
     <div class="header__body__wrapper">
         <h1 class="header__body__title">Awaken Your <br> <span>Inner Chef</span>

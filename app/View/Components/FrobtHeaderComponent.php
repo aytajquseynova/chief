@@ -1,8 +1,13 @@
 <?php
 
+
 namespace App\View\Components;
 
+use App\Models\Setting; 
+
+
 use Closure;
+
 use Illuminate\Contracts\View\View;
 use Illuminate\View\Component;
 
@@ -19,8 +24,12 @@ class FrobtHeaderComponent extends Component
     /**
      * Get the view / contents that represent the component.
      */
+    // Bileşen içinde $settings değişkenini aktarmak için (compact kullanarak):
     public function render(): View|Closure|string
     {
-        return view('components.frobt-header-component');
+        $settings = Setting::first();
+        return view('components.frobt-header-component', compact('settings'));
     }
+
+
 }

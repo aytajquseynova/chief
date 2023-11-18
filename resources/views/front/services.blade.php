@@ -4,73 +4,73 @@
 <section class="services__lists">
     <div class="container">
         <div class="services__lists_wrapper">
-            <a href="./service.html" class="services__lists__box">
+            <a href="{{route('service')}}" class="services__lists__box">
                 <div class="services__lists__box__text">
                     Lorem ipsum
                 </div>
                 <img src="{{asset('assets/front/images/services/products.png')}}" alt="">
             </a>
-            <a href="./service.html" class="services__lists__box">
+            <a href="{{route('service')}}" class="services__lists__box">
                 <div class="services__lists__box__text">
                     Lorem ipsum
                 </div>
                 <img src="{{asset('assets/front/images/services/products.png')}}" alt="">
             </a>
-            <a href="./service.html" class="services__lists__box">
+            <a href="{{route('service')}}" class="services__lists__box">
                 <div class="services__lists__box__text">
                     Lorem ipsum
                 </div>
                 <img src="{{asset('assets/front/images/services/products.png')}}" alt="">
             </a>
-            <a href="./service.html" class="services__lists__box">
+            <a href="{{route('service')}}" class="services__lists__box">
                 <div class="services__lists__box__text">
                     Lorem ipsum
                 </div>
                 <img src="{{asset('assets/front/images/services/products.png')}}" alt="">
             </a>
-            <a href="./service.html" class="services__lists__box">
+            <a href="{{route('service')}}" class="services__lists__box">
                 <div class="services__lists__box__text">
                     Lorem ipsum
                 </div>
                 <img src="{{asset('assets/front/images/services/products.png')}}" alt="">
             </a>
-            <a href="./service.html" class="services__lists__box">
+            <a href="{{route('service')}}" class="services__lists__box">
                 <div class="services__lists__box__text">
                     Lorem ipsum
                 </div>
                 <img src="{{asset('assets/front/images/services/products.png')}}" alt="">
             </a>
-            <a href="./service.html" class="services__lists__box">
+            <a href="{{route('service')}}" class="services__lists__box">
                 <div class="services__lists__box__text">
                     Lorem ipsum
                 </div>
                 <img src="{{asset('assets/front/images/services/products.png')}}" alt="">
             </a>
-            <a href="./service.html" class="services__lists__box">
+            <a href="{{route('service')}}" class="services__lists__box">
                 <div class="services__lists__box__text">
                     Lorem ipsum
                 </div>
                 <img src="{{asset('assets/front/images/services/products.png')}}" alt="">
             </a>
-            <a href="./service.html" class="services__lists__box">
+            <a href="{{route('service')}}" class="services__lists__box">
                 <div class="services__lists__box__text">
                     Lorem ipsum
                 </div>
                 <img src="{{asset('assets/front/images/services/products.png')}}" alt="">
             </a>
-            <a href="./service.html" class="services__lists__box">
+            <a href="{{route('service')}}" class="services__lists__box">
                 <div class="services__lists__box__text">
                     Lorem ipsum
                 </div>
                 <img src="{{asset('assets/front/images/services/products.png')}}" alt="">
             </a>
-            <a href="./service.html" class="services__lists__box">
+            <a href="{{route('service')}}" class="services__lists__box">
                 <div class="services__lists__box__text">
                     Lorem ipsum
                 </div>
                 <img src="{{asset('assets/front/images/services/products.png')}}" alt="">
             </a>
-            <a href="./service.html" class="services__lists__box">
+            <a href="{{route('service')}}" class="services__lists__box">
                 <div class="services__lists__box__text">
                     Lorem ipsum
                 </div>

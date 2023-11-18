@@ -4,51 +4,51 @@
 <section class="products pageProd">
     <div class="container">
         <div class="products__wrapper">
-            <a href="./product.html" class="products__item">
+            <a href="{{route('product')}}" class="products__item">
                 <img src="{{asset('assets/front/images/products/p1.png')}}" alt="">
                 <div class="products__item__text">Lorem ipsum</div>
             </a>
-            <a href="./product.html" class="products__item">
+            <a href="{{route('product')}}" class="products__item">
                 <img src="{{asset('assets/front/images/products/p2.png')}}" alt="">
                 <div class="products__item__text">Lorem ipsum</div>
             </a>
-            <a href="./product.html" class="products__item">
+            <a href="{{route('product')}}" class="products__item">
                 <img src="{{asset('assets/front/images/products/p3.png')}}" alt="">
                 <div class="products__item__text">Lorem ipsum</div>
             </a>
-            <a href="./product.html" class="products__item">
+            <a href="{{route('product')}}" class="products__item">
                 <img src="{{asset('assets/front/images/products/p4.png')}}" alt="">
                 <div class="products__item__text">Lorem ipsum</div>
             </a>
-            <a href="./product.html" class="products__item">
+            <a href="{{route('product')}}" class="products__item">
                 <img src="{{asset('assets/front/images/products/p1.png')}}" alt="">
                 <div class="products__item__text">Lorem ipsum</div>
             </a>
-            <a href="./product.html" class="products__item">
+            <a href="{{route('product')}}" class="products__item">
                 <img src="{{asset('assets/front/images/products/p2.png')}}" alt="">
                 <div class="products__item__text">Lorem ipsum</div>
             </a>
-            <a href="./product.html" class="products__item">
+            <a href="{{route('product')}}" class="products__item">
                 <img src="{{asset('assets/front/images/products/p2.png')}}" alt="">
                 <div class="products__item__text">Lorem ipsum</div>
             </a>
-            <a href="./product.html" class="products__item">
+            <a href="{{route('product')}}" class="products__item">
                 <img src="{{asset('assets/front/images/products/p4.png')}}" alt="">
                 <div class="products__item__text">Lorem ipsum</div>
             </a>
-            <a href="./product.html" class="products__item">
+            <a href="{{route('product')}}" class="products__item">
                 <img src="{{asset('assets/front/images/products/p2.png')}}" alt="">
                 <div class="products__item__text">Lorem ipsum</div>
             </a>
-            <a href="./product.html" class="products__item">
+            <a href="{{route('product')}}" class="products__item">
                 <img src="{{asset('assets/front/images/products/p3.png')}}" alt="">
                 <div class="products__item__text">Lorem ipsum</div>
             </a>
-            <a href="./product.html" class="products__item">
+            <a href="{{route('product')}}" class="products__item">
                 <img src="{{asset('assets/front/images/products/p4.png')}}" alt="">
                 <div class="products__item__text">Lorem ipsum</div>
             </a>
-            <a href="./product.html" class="products__item">
+            <a href="{{route('product')}}" class="products__item">
                 <img src="{{asset('assets/front/images/products/p1.png')}}" alt="">
                 <div class="products__item__text">Lorem ipsum</div>
             </a>

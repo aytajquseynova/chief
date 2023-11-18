@@ -3,10 +3,10 @@
 @section('content')
 <div class="page__link">
     <div class="container">
-        <a href="./index.html" class="back"><img src="./assets/icons/aboutus/back.png" alt=""></a>
-        <a href="./index.html">Home page</a>
+        <a href="{{route('home')}}" class="back"><img src="{{asset('assets/front/icons/aboutus/back.png')}}" alt=""></a>
+        <a href="{{route('home')}}">Home page</a>
         <img src="./assets/icons/aboutus/Vector 175 (Stroke).png" alt="">
-        <a class="actived__link" href=".//contact.html">Contact us</a>
+        <a class="actived__link" href="{{route('contact')}}">Contact us</a>
     </div>
 </div>
 <main class="contact ">

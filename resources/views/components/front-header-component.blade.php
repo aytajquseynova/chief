@@ -4,11 +4,11 @@
         <div class="menu">
             <i class="fa fa-window-close" aria-hidden="true"></i>
             <ul>
-                <li><a href="./aboutUs.html">About us</a></li>
-                <li><a href="./services.html">Services</a></li>
-                <li><a href="./products.html">Products</a></li>
-                <li><a href="./ourteams.html">Our team</a></li>
-                <li><a href="./contact.html">Contact us</a></li>
+                <li><a href="{{route('about')}}">About us</a></li>
+                <li><a href="{{route('services')}}">Services</a></li>
+                <li><a href="{{route('products')}}">Products</a></li>
+                <li><a href="{{route('ourteams')}}">Our team</a></li>
+                <li><a href="{{route('contact')}}">Contact us</a></li>
             </ul>
         </div>
         <div class="container">
@@ -18,9 +18,13 @@
                         <span>
                             <img src="{{asset('assets/front/icons/navbar/carbon_phone-filled.png')}}" alt="">
                         </span>
-                        <span><a href="">+994 50 000 00 00</a></span>
+                        <!-- Assuming $settings has been passed to the view -->
+                        <span><a href="tel:{{$settings->phone}}">{{$settings->phone}}</a>
                     </div>
-                    <div class="header__top__logo"><a href="./index.html">LOGO</a></div>
+                    <div class="header__top__logo"><a href="{{route('home')}}">
+                            <img src="{{ asset($settings->logo) }}" alt="">
+
+                        </a></div>
                     <div class="header__top__lang">
                         <span>
                             <img src="{{asset('assets/front/icons/navbar/icon-park-outline_earth.png')}}" alt="">
@@ -37,11 +41,11 @@
             <nav class="navbar">
                 <div class="navbar__wrapper">
                     <ul>
-                        <li><a href="./aboutUs.html">About us</a></li>
-                        <li><a href="./services.html">Services</a></li>
-                        <li><a href="./products.html">Products</a></li>
-                        <li><a href="./ourteams.html">Our team</a></li>
-                        <li><a href="./contact.html">Contact us</a></li>
+                        <li><a href="{{route('about')}}">About us</a></li>
+                        <li><a href="{{route('services')}}">Services</a></li>
+                        <li><a href="{{route('products')}}">Products</a></li>
+                        <li><a href="{{route('ourteams')}}">Our team</a></li>
+                        <li><a href="{{route('contact')}}">Contact us</a></li>
                     </ul>
                 </div>
             </nav>
