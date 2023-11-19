@@ -1,11 +1,11 @@
 @extends('front.layouts.master')
 @section('page_title', 'home page')
 @section('header_body')
-<!-- <style>
+<style>
     .header {
         background-image: url('{{ asset("assets/front/images/header/Frame 1.png") }}');
     }
-</style> -->
+</style>
 <div class="header__body">
     <div class="header__body__wrapper">
         <h1 class="header__body__title">Awaken Your <br> <span>Inner Chef</span>
@@ -64,37 +64,37 @@
 
             <div class="slide__wrapper">
                 <div class="slider">
-                    <a href="./service.html">
+                    <a href="{{route('service')}}">
                         <div class="slider__image__box">
                             Lorem ipsum
                         </div>
                         <img class="services__slider__img" src="{{asset('assets/front/images/services/products.png')}}">
                     </a>
-                    <a href="./service.html">
+                    <a href="{{route('service')}}">
                         <div class="slider__image__box">
                             Lorem ipsum
                         </div>
                         <img class="services__slider__img" src="{{asset('assets/front/images/services/products.png')}}">
                     </a>
-                    <a href="./service.html">
+                    <a href="{{route('service')}}">
                         <div class="slider__image__box">
                             Lorem ipsum
                         </div>
                         <img class="services__slider__img" src="{{asset('assets/front/images/services/products.png')}}">
                     </a>
-                    <a href="./service.html">
+                    <a href="{{route('service')}}">
                         <div class="slider__image__box">
                             Lorem ipsum
                         </div>
                         <img class="services__slider__img" src="{{asset('assets/front/images/services/products.png')}}">
                     </a>
-                    <a href="./service.html">
+                    <a href="{{route('service')}}">
                         <div class="slider__image__box">
                             Lorem ipsum
                         </div>
                         <img class="services__slider__img" src="{{asset('assets/front/images/services/products.png')}}">
                     </a>
-                    <a href="./service.html">
+                    <a href="{{route('service')}}">
                         <div class="slider__image__box">
                             Lorem ipsum
                         </div>
@@ -109,44 +109,44 @@
     <div class="container">
         <div class="products__top">
             <div class="custom__title">Products</div>
-            <a href="./products.html" class="products__top__link">all products</a>
+            <a href="{{route('products')}}" class="products__top__link">all products</a>
         </div>
         <div class="products__wrapper">
-            <a href="./product.html" class="products__item">
+            <a href="{{route('product')}}" class="products__item">
                 <img src="{{asset('assets/front/images/products/p1.png')}}" alt="">
                 <div class="products__item__text">Lorem ipsum</div>
             </a>
-            <a href="./product.html" class="products__item">
+            <a href="{{route('product')}}" class="products__item">
                 <img src="{{asset('assets/front/images/products/p2.png')}}" alt="">
                 <div class="products__item__text">Lorem ipsum</div>
             </a>
-            <a href="./product.html" class="products__item">
+            <a href="{{route('product')}}" class="products__item">
                 <img src="{{asset('assets/front/images/products/p3.png')}}" alt="">
                 <div class="products__item__text">Lorem ipsum</div>
             </a>
-            <a href="./product.html" class="products__item">
+            <a href="{{route('product')}}" class="products__item">
                 <img src="{{asset('assets/front/images/products/p4.png')}}" alt="">
                 <div class="products__item__text">Lorem ipsum</div>
             </a>
-            <a href="./product.html" class="products__item">
+            <a href="{{route('product')}}" class="products__item">
                 <img src="{{asset('assets/front/images/products/p1.png')}}" alt="">
                 <div class="products__item__text">Lorem ipsum</div>
             </a>
-            <a href="./product.html" class="products__item">
+            <a href="{{route('product')}}" class="products__item">
                 <img src="{{asset('assets/front/images/products/p2.png')}}" alt="">
                 <div class="products__item__text">Lorem ipsum</div>
             </a>
-            <a href="./product.html" class="products__item">
+            <a href="{{route('product')}}" class="products__item">
                 <img src="{{asset('assets/front/images/products/p3.png')}}" alt="">
                 <div class="products__item__text">Lorem ipsum</div>
             </a>
-            <a href="./product.html" class="products__item">
+            <a href="{{route('product')}}" class="products__item">
                 <img src="{{asset('assets/front/images/products/p4.png')}}" alt="">
                 <div class="products__item__text">Lorem ipsum</div>
             </a>
         </div>
     </div>
-    <a href="./products.html" class="mini__link">
+    <a href="{{route('product')}}" class="mini__link">
         all products
     </a>
 </section>
@@ -158,7 +158,7 @@
             <div class="team__slider">
 
 
-                <a href="./ourteam.html" class="team__slider__box">
+                <a href="{{route('ourteam')}}" class="team__slider__box">
                     <div class="team__slider__box__wrapper">
                         <div class="team__slider__box__desc">
                             <h5 class="team__slider__box__desc__title">Lorem ipsum</h5>
@@ -171,7 +171,7 @@
                         </div>
                     </div>
                 </a>
-                <a href="./ourteam.html" class="team__slider__box">
+                <a href="{{route('ourteam')}}" class="team__slider__box">
                     <div class="team__slider__box__wrapper">
                         <div class="team__slider__box__desc">
                             <h5 class="team__slider__box__desc__title">Lorem ipsum</h5>
@@ -184,7 +184,7 @@
                         </div>
                     </div>
                 </a>
-                <a href="./ourteam.html" class="team__slider__box">
+                <a href="{{route('ourteam')}}" class="team__slider__box">
                     <div class="team__slider__box__wrapper">
                         <div class="team__slider__box__desc">
                             <h5 class="team__slider__box__desc__title">Lorem ipsum</h5>
@@ -197,7 +197,7 @@
                         </div>
                     </div>
                 </a>
-                <a href="./ourteam.html" class="team__slider__box">
+                <a href="{{route('ourteam')}}" class="team__slider__box">
                     <div class="team__slider__box__wrapper">
                         <div class="team__slider__box__desc">
                             <h5 class="team__slider__box__desc__title">Lorem ipsum</h5>
@@ -210,7 +210,7 @@
                         </div>
                     </div>
                 </a>
-                <a href="./ourteam.html" class="team__slider__box">
+                <a href="{{route('ourteam')}}" class="team__slider__box">
                     <div class="team__slider__box__wrapper">
                         <div class="team__slider__box__desc">
                             <h5 class="team__slider__box__desc__title">Lorem ipsum</h5>
@@ -223,7 +223,7 @@
                         </div>
                     </div>
                 </a>
-                <a href="./ourteam.html" class="team__slider__box">
+                <a href="{{route('ourteam')}}" class="team__slider__box">
                     <div class="team__slider__box__wrapper">
                         <div class="team__slider__box__desc">
                             <h5 class="team__slider__box__desc__title">Lorem ipsum</h5>
@@ -238,7 +238,7 @@
                 </a>
             </div>
         </div>
-        <a href="./ourteams.html" class="see__link">see more</a>
+        <a href="{{route('ourteams')}}" class="see__link">see more</a>
     </div>
 </section>
 <section class="contactUs">

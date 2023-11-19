@@ -19,10 +19,10 @@
                             <img src="{{asset('assets/front/icons/navbar/carbon_phone-filled.png')}}" alt="">
                         </span>
                         <!-- Assuming $settings has been passed to the view -->
-                        <span><a href="tel:{{$settings->phone}}">{{$settings->phone}}</a>
+                        <span><a href=" {{route('contact')}} ">{{$settings->phone}}</a></span>
                     </div>
                     <div class="header__top__logo"><a href="{{route('home')}}">
-                            <img src="{{ asset($settings->logo) }}" alt="">
+                            <img src="{{asset('$settings->logo')}}">
 
                         </a></div>
                     <div class="header__top__lang">

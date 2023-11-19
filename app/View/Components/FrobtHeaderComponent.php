@@ -3,9 +3,8 @@
 
 namespace App\View\Components;
 
-use App\Models\Setting; 
 
-
+use App\Models\Settings;
 use Closure;
 
 use Illuminate\Contracts\View\View;
@@ -27,7 +26,7 @@ class FrobtHeaderComponent extends Component
     // Bileşen içinde $settings değişkenini aktarmak için (compact kullanarak):
     public function render(): View|Closure|string
     {
-        $settings = Setting::first();
+        $settings = Settings::first();
         return view('components.frobt-header-component', compact('settings'));
     }
 

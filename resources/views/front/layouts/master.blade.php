@@ -2,11 +2,11 @@
 <html lang="en">
 
 @include('front.layouts.head')
- <style>
+ <!-- <style>
         .header {
             background-image: url('{{ asset("assets/front/images/header/Frame 1.png") }}');
         }
-    </style>
+    </style> -->
 <body>
    
     <div class="up">

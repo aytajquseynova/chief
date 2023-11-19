@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->string('phone');
             $table->string('logo');
-            $table->string('copywrite');
+            $table->string('copyright');
             $table->timestamps();
         });
     }

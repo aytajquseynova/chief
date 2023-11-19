@@ -2,10 +2,11 @@
 
 namespace Database\Seeders;
 
+use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
 
-class SettingSeeder extends Seeder
+class SettingsSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -13,9 +14,9 @@ class SettingSeeder extends Seeder
     public function run(): void
     {
         DB::table('settings')->insert([
-            'phone' => '050000000',
+            'phone' => '0500000',
             'logo' => 'assets/front/icons/navbar/logo.jpg',
-            'copyright' => 'All rights reserved'
+            'copyright' => 'All rights reserved',
         ]);
     }
 }

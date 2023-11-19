@@ -18,8 +18,13 @@ class DatabaseSeeder extends Seeder
         //     'email' => 'test@example.com',
         // ]);
 
-        $this->call([
-            SettingSeeder::class,
-        ]);
+        // $this->call([
+        //     SettingSeeder::class,
+        // ]);
+        $this->call(
+            [
+                SettingsSeeder::class
+            ]
+            );
     }
 }
